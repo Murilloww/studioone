@@ -1,0 +1,53 @@
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+
+article{
+    display: flex;
+    line-height: 1.5em;
+    margin-top: 50px;
+}
+
+aside{
+    line-height: 1.5em;
+    margin-top: 50px;
+}
+
+h1{
+    padding: 5px;
+}
+
+p{
+    padding-inline: 5px;
+    text-indent: 20px;    
+}
+
+
+#div__studio1, #picture__studio1{
+    border: 1px solid red;
+    flex: 1;
+}
+
+#div__studio2, #picture__studio2, #article__coberturaEvento, #picture__coberturaEvento{
+    margin-top: 1em;
+    border: 1px solid red;
+    flex: 1;
+}
+
+#div__drone, #aside_drone{
+    margin-top: 1em;
+    border: 1px solid red ;
+}
+
+#video__drone{
+    margin: 20px;
+    border: 1px solid red;
+}
+

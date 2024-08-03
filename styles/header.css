@@ -1,0 +1,22 @@
+header {
+    background-color: var(--corDarkMode);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.541);
+}
+
+nav {
+    padding: 20px;
+    background-color: var(--corDarkMode); 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+}
