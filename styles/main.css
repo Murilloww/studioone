@@ -8,7 +8,6 @@ main{
     padding: 20px;
 }
 
-
 article{
     display: flex;
     line-height: 1.5em;
@@ -17,7 +16,8 @@ article{
 
 aside{
     line-height: 1.5em;
-    margin-top: 50px;
+    margin-block: 50px;
+    border: 1px solid red;
 }
 
 h1{
@@ -29,25 +29,17 @@ p{
     text-indent: 20px;    
 }
 
-
-#div__studio1, #picture__studio1{
+div{
     border: 1px solid red;
     flex: 1;
 }
 
-#div__studio2, #picture__studio2, #article__coberturaEvento, #picture__coberturaEvento{
-    margin-top: 1em;
+picture{
     border: 1px solid red;
     flex: 1;
 }
 
-#div__drone, #aside_drone{
-    margin-top: 1em;
-    border: 1px solid red ;
-}
-
-#video__drone{
-    margin: 20px;
-    border: 1px solid red;
+#foto__esquerda{
+    
 }
 
