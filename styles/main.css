@@ -38,6 +38,11 @@ picture{
     border: 1px solid red;
     flex: 1;
 }
-
-
+ 
+picture.imagem__normal > img{
+    max-width: 500px;
+    background-size: cover;
+    background-position: center center;
+    margin: 20px;
+}
 
